@@ -67,7 +67,7 @@ pander(style_table1(catch_table), missing = "-")
 ```
 
 
-```{r catch_plot, fig.cap = cap_in, fig.path="report/summary.png"}
+```{r catch_plot, fig.cap = cap_in}
 # Figure Caption
 cap_in <- figure_nums("catch_plot")
 
@@ -75,7 +75,7 @@ cap_in <- figure_nums("catch_plot")
 include_graphics("report/summary_catch.png") 
 ```
 
-```{r catch_plot2, fig.cap = cap_in, fig.path="report/summary.png"}
+```{r catch_plot2, fig.cap = cap_in}
 # Figure Caption
 cap_in <- figure_nums("catch_plot2")
 
