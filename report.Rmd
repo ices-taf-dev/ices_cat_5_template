@@ -10,7 +10,7 @@ output:
 ---
 
 ```{r libraries, include=FALSE}
-library(captioner)
+taf.library(captioner)
 library(knitr)
 library(pander)
 ```
@@ -72,7 +72,7 @@ pander(style_table1(catch_table), missing = "-")
 cap_in <- figure_nums("catch_plot")
 
 # Output figure
-include_graphics("report/summary_catch.png") 
+include_graphics("report/summary_catch.png")
 ```
 
 ```{r catch_plot2, fig.cap = cap_in}
@@ -80,5 +80,5 @@ include_graphics("report/summary_catch.png")
 cap_in <- figure_nums("catch_plot2")
 
 # Output figure
-include_graphics("report/catches_by_halfyear_bar.png") 
+include_graphics("report/catches_by_halfyear_bar.png")
 ```
