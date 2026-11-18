@@ -1,6 +1,6 @@
 ## Preprocess data, write TAF data tables
 
-## Before: bootstrap/
+## Before: boot/
 ##           data/
 ##             sandeel_assessment_1982_2018.csv
 ## After: data/
@@ -13,7 +13,7 @@ library(tidyr)
 mkdir("data")
 
 # read in input data
-catches <- read.taf("bootstrap/data/sandeel_assessment_1982_2018.csv")
+catches <- read.taf("boot/data/sandeel_assessment_1982_2018.csv")
 
 # subset out data for area 6, reshape and format
 summary_catch <-

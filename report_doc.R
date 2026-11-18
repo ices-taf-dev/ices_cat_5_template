@@ -1,6 +1,6 @@
 ## Prepare plots and tables for report
 
-## Before: bootstrap/
+## Before: boot/
 ##           data/
 ##             sandeel_assessment_1982_2018.csv
 ##         output/
